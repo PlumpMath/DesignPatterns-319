@@ -10,6 +10,6 @@ namespace ObserverPattern.Contract
     {
         void RegisterObservers(Observer O);
         void RemoveObservers(Observer O);
-        void NotifyObservers(Parameter parameter);
+        void NotifyObservers();
     }
 }
